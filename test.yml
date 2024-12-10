@@ -1,0 +1,6 @@
+- name: Convert discovered to managed instance
+  hosts: localhost
+  tasks:
+    - name: debug details
+      debug:
+        msg: "test confirmed"
